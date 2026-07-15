@@ -20,12 +20,13 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+# OAuth2 token
 .httr-oauth
 
 # knitr and R markdown default cache directories
@@ -38,12 +39,14 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
+.env
 
 # translation temp files
 po/*~
 
-# RStudio Connect folder
-rsconnect/
+# Data and Outputs (DO NOT COMMIT)
+data/
+output/
+.tmp/
+1-Run_Analysis.bat
+2-Clean_Project.bat
