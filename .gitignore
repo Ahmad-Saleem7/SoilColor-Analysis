@@ -45,8 +45,8 @@ vignettes/*.pdf
 po/*~
 
 # Data and Outputs (DO NOT COMMIT)
-data/
 output/
 .tmp/
 1-Run_Analysis.bat
 2-Clean_Project.bat
+/data/processed
